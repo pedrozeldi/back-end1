@@ -1,8 +1,5 @@
 <?php
 
-function soma ($n1, $n2){
-    $total = $n1 + $n2;
-    return $total;
+for($numero = 1; $numero <= 50; $numero++){
+    echo verificaridade($numero) . "<br>";
 }
-
-    echo "Soma = ".soma(10, 20);

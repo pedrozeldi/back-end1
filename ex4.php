@@ -1,13 +1,9 @@
 <?php
 
-function verificaridade($idade){
-    if($idade < 16){
-   return "Não pode votar";
-    }else if($idade <18){
-        return "Voto opcional";
-    }
-    else{
-        return "Pode votar";
-    }
+for ($i = 10; $i >= 1; $i--){
+    echo $i . "<br>";
+
 }
-echo verificaridade(17);
+echo "Gamer Over!";
+
+?>

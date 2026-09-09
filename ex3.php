@@ -1,8 +1,10 @@
 <?php
 
-function calcularDesconto($preco, $desconto){
-    $valorDesconto = $preco * $desconto / 100;
-    return $preco - $valorDesconto;
+$soma = 0;
+for($numero = 1; $numero <= 10; $numero++){
+    $soma = $soma + $numero;
 }
 
-echo "Preço final: R$ ", calcularDesconto(100,10);
+echo "A soma dos números de 1 até 10: ", $soma
+
+?>

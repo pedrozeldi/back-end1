@@ -1,19 +1,8 @@
-<?php
+<?phpecho<?php
 
-function analisarvenda($produto, $custo, $venda){
-    $lucro = $venda - $custo;
-
-   if ($lucro <= 0) {
-        $mensagem = "Prejuízo";
+echo "Numeros pares: <br>";
+for($numero = 1; $numero <= 50; $numero++){
+    if($numero % 2 == 0){
+        echo $numero . "<br>";
     }
-    elseif(lucro <= 20){
-        $mensagem = "Lucro baixo, mas vale a pena";
-    }
-    else{
-        $mensagem = "Lucro alto! Investe!!";
-    }
-    echo "Produto: $produto <br>";
-    echo "Lucro:  $lucro <br>";
-    echo "Análise:  $mensagem <br>";
 }
-    analisarvenda("Camiseta", 40, 35);
